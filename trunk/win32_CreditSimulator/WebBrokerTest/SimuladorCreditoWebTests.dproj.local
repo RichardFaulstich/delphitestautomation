@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/11/24 11:57:35.182.dproj,C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBrokerTest\ColetaSalariosWebTests.dproj=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBrokerTest\SimuladorCreditoWebTests.dproj</Transaction>
+    <Transaction>2009/11/24 12:37:46.279.pas,C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBrokerTest\TestDMSimulaCredito.pas=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBrokerTest\UTestDMSimulaCredito.pas</Transaction>
+    <Transaction>2009/11/24 15:42:26.019.pas,C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBrokerTest\Unit1.pas=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBroker\UParcelasMaximasException.pas</Transaction>
+  </Transactions>
+</BorlandProject>

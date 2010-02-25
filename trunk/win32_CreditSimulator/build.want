@@ -1,0 +1,6 @@
+project TestLibTest
+import WANT.Test
+call DUnit with
+  TestLib := "C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBrokerTestDLL\WebBrokerTestDLL.dll"
+end
+end

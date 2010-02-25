@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{BE1491D3-F82A-4E64-9A0C-E07ADB57626C}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="WebBroker\SimuladorCreditoWeb.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebBrokerTest\SimuladorCreditoWebTests.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WebBrokerTestDLL\WebBrokerTestDLL.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="SimuladorCreditoWeb">
+			<MSBuild Projects="WebBroker\SimuladorCreditoWeb.dproj"/>
+		</Target>
+		<Target Name="SimuladorCreditoWeb:Clean">
+			<MSBuild Targets="Clean" Projects="WebBroker\SimuladorCreditoWeb.dproj"/>
+		</Target>
+		<Target Name="SimuladorCreditoWeb:Make">
+			<MSBuild Targets="Make" Projects="WebBroker\SimuladorCreditoWeb.dproj"/>
+		</Target>
+		<Target Name="SimuladorCreditoWebTests">
+			<MSBuild Projects="WebBrokerTest\SimuladorCreditoWebTests.dproj"/>
+		</Target>
+		<Target Name="SimuladorCreditoWebTests:Clean">
+			<MSBuild Targets="Clean" Projects="WebBrokerTest\SimuladorCreditoWebTests.dproj"/>
+		</Target>
+		<Target Name="SimuladorCreditoWebTests:Make">
+			<MSBuild Targets="Make" Projects="WebBrokerTest\SimuladorCreditoWebTests.dproj"/>
+		</Target>
+		<Target Name="WebBrokerTestDLL">
+			<MSBuild Projects="WebBrokerTestDLL\WebBrokerTestDLL.dproj"/>
+		</Target>
+		<Target Name="WebBrokerTestDLL:Clean">
+			<MSBuild Targets="Clean" Projects="WebBrokerTestDLL\WebBrokerTestDLL.dproj"/>
+		</Target>
+		<Target Name="WebBrokerTestDLL:Make">
+			<MSBuild Targets="Make" Projects="WebBrokerTestDLL\WebBrokerTestDLL.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="SimuladorCreditoWeb;SimuladorCreditoWebTests;WebBrokerTestDLL"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="SimuladorCreditoWeb:Clean;SimuladorCreditoWebTests:Clean;WebBrokerTestDLL:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="SimuladorCreditoWeb:Make;SimuladorCreditoWebTests:Make;WebBrokerTestDLL:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

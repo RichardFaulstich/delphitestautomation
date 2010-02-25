@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/11/20 15:23:28.522.pas,C:\Users\danielwildt\Documents\RAD Studio\Projects\Unit1.pas=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBroker\UDUnitServer.pas</Transaction>
+    <Transaction>2009/11/20 15:23:28.522.dfm,C:\Users\danielwildt\Documents\RAD Studio\Projects\Unit1.dfm=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBroker\UDUnitServer.dfm</Transaction>
+    <Transaction>2009/11/20 15:24:50.826.pas,C:\Users\danielwildt\Documents\RAD Studio\Projects\Unit2.pas=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBroker\UDMWebBroker.pas</Transaction>
+    <Transaction>2009/11/20 15:24:50.826.dfm,C:\Users\danielwildt\Documents\RAD Studio\Projects\Unit2.dfm=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBroker\UDMWebBroker.dfm</Transaction>
+    <Transaction>2009/11/20 15:25:16.921.dproj,C:\Users\danielwildt\Documents\RAD Studio\Projects\Project1.dproj=C:\dev\opensource\DelphiConference2010_DelphiTesting\WebBroker\ColetaSalariosWeb.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
