@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/11/20 15:29:31.870.groupproj,C:\Users\danielwildt\Documents\RAD Studio\Projects\ProjectGroup1.groupproj=C:\dev\opensource\DelphiConference2010_DelphiTesting\Delphi2010ConferenceProjects.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="SimuladorCreditoWeb.exe"/>
+	</Default.Personality>
+</BorlandProject>
